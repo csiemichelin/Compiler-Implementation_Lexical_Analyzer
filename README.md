@@ -17,7 +17,7 @@
 **2. 使用方法**  
   
 &emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-a-Lexical-Analyzer/blob/main/flex.PNG" width="500" height="250">    
-&emsp;&emsp;根據以上圖示去執行但這裡穩麼使用makefile簡化步驟，只要在terminal上輸入```make```即可。  
+&emsp;&emsp;根據以上圖示去執行但這裡使用makefile簡化步驟，只要在terminal上輸入```make```即可。  
 
 ## 介紹
 **1.** This category of tokens includes all identifiers. An identifier is a sequence of underscores, letters, and digits; the first character must be an underscore or a letter. All identifiers are returned as the same token type. However, there are a large number of possible lexemes for this token type. To distinguish these lexemes, the string of each identifier is returned as the attribute value of the token.
