@@ -22,4 +22,24 @@ Each  operator  is  returned  as  a  different  token  type.  Namely,  there  ar
 6.This  category  of  tokens  includes  all  comments.  A  comment  starts  with  the characters // and ends with a newline. These tokens are ignored and are not returned. When a character is not recognized as one of the above 6 types of tokens, this character is ignored and the lexical analyzer needs to print the following error message **“Lexical error: line %d: unknown character %c”**
 
 ## Demo
-
+1.
+``` 
+// A program to sum 1 to n 
+Program sum Begin 
+ Var    n 
+ Var    s 
+ 
+Read n 
+If n < 0 Then 
+          Write -1 
+ Exit 
+Else 
+          Set s = 0 
+         EndIf 
+         While n > 0 Do 
+   Set s = s + n 
+       Set n = n – 1 
+         EndWhile 
+  Write s 
+End
+```
