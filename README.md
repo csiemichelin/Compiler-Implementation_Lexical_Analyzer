@@ -12,9 +12,9 @@
 &emsp;&emsp;&emsp;```sudo apt-get update```      
 &emsp;&emsp;&emsp;```sudo apt-get upgrade```      
 &emsp;&emsp;&emsp;```sudo apt-get install build-essential```        
-&emsp;&emsp;&emsp;```sudo apt-get install libc6-dev```
-**2. 使用方法**
-&emsp;&emsp;<img src="![flex](https://user-images.githubusercontent.com/49907717/160639026-e7524ea7-7a3a-43c8-9f14-f58a3adf0c03.PNG)" width="300" height="300">  
+&emsp;&emsp;&emsp;```sudo apt-get install libc6-dev```  
+**2. 使用方法**  
+&emsp;&emsp;<img src="![flex](https://user-images.githubusercontent.com/49907717/160639818-c2fde504-c305-467c-a3b0-fe2fa67b6315.PNG))" width="500" height="250">    
 &emsp;&emsp;根據以上圖示去執行但這裡穩麼使用makefile簡化步驟，只要在terminal上輸入```make```即可。  
 
 ## 介紹
