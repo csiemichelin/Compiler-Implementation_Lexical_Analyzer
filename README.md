@@ -22,8 +22,8 @@ Each  operator  is  returned  as  a  different  token  type.  Namely,  there  ar
 6.This  category  of  tokens  includes  all  comments.  A  comment  starts  with  the characters // and ends with a newline. These tokens are ignored and are not returned. When a character is not recognized as one of the above 6 types of tokens, this character is ignored and the lexical analyzer needs to print the following error message **“Lexical error: line %d: unknown character %c”**
 
 ## Demo
-**1.**
-**Input:test1.txt**
+**1.**  
+**Input : test1.txt**
 ``` 
 // A program to sum 1 to n 
 Program sum Begin 
@@ -94,7 +94,7 @@ Identifier: s
 Keyword: End  
 
 **2.**  
-**Input:test2.txt**  
+**Input : test2.txt**  
 ```
 // A program to sum 1 to n   
 Program sum Begin   
