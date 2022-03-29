@@ -8,7 +8,7 @@
 &emsp;Windows平臺下面Lex和Yacc開發環境所需要安裝的程序：    
 &emsp;&emsp;* **Lex(flex.exe)和Yacc(bison.exe)環境**        
 &emsp;&emsp;&emsp;```sudo apt-get install flex bison```    
-&emsp;&emsp;* C/C++編譯器 ```    
+&emsp;&emsp;* **C/C++編譯器**      
 &emsp;&emsp;```sudo apt-get update```      
 &emsp;&emsp;```sudo apt-get upgrade```      
 &emsp;&emsp;```sudo apt-get install build-essential```        
