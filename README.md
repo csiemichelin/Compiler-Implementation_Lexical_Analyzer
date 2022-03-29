@@ -5,9 +5,9 @@
  - [Demo](#Demo)
 ## 環境設置與使用方法
 **1. 環境設置**  
-Windows平臺下面Lex和Yacc開發環境所需要安裝的程序：  
-    * Lex(flex.exe)和Yacc(bison.exe)環境 ```sudo apt-get install flex bison```  
-    * C/C++編譯器  
+&emspWindows平臺下面Lex和Yacc開發環境所需要安裝的程序：  
+&emsp&emsp* **Lex(flex.exe)和Yacc(bison.exe)環境 ```sudo apt-get install flex bison```**
+&emsp&emsp* C/C++編譯器 ```
 
 ## 介紹
 **1.** This category of tokens includes all identifiers. An identifier is a sequence of underscores, letters, and digits; the first character must be an underscore or a letter. All identifiers are returned as the same token type. However, there are a large number of possible lexemes for this token type. To distinguish these lexemes, the string of each identifier is returned as the attribute value of the token.
