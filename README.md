@@ -14,7 +14,7 @@
 includes  all  integer  constants.  An  integer  constant consists of a sequence of digits. All integer constants are returned as the same token  type.  However,  there  are  a  large  number  of  possible  lexemes  for  this token  type.  To  distinguish  these  lexemes,  the  integer  value  of  each  integer constant is returned as the attribute value of the token.
 
 4.This category of tokens includes the following 14 operators:
-**+-*/%===<>>>=<<=()**
+**+    -    *    /    %    =    ==    <>    >    >=    <    <=    (    )**
 Each  operator  is  returned  as  a  different  token  type.  Namely,  there  are  14 different  token  types.  Since  there  is  only  one  lexeme  for  each  token,  no attribute value is returned for each operator.
 
 5.This  category  of  tokens  includes  all  white  spaces.  A  white  space  may  be  a  (‘ ’), a tab (‘\t’), or a newline (‘\n’). These white spaces are mainly served to separate tokens. These tokens are ignored and are not returned.
