@@ -14,7 +14,7 @@
 &emsp;&emsp;&emsp;```sudo apt-get install build-essential```        
 &emsp;&emsp;&emsp;```sudo apt-get install libc6-dev```  
 **2. 使用方法**  
-&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-a-Lexical-Analyzer/blob/main/flex.PNG))" width="500" height="250">    
+&emsp;&emsp;<img src="https://github.com/csiemichelin/Implementation-of-a-Lexical-Analyzer/blob/main/flex.PNG" width="500" height="250">    
 &emsp;&emsp;根據以上圖示去執行但這裡穩麼使用makefile簡化步驟，只要在terminal上輸入```make```即可。  
 
 ## 介紹
