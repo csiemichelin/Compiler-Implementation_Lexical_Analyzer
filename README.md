@@ -23,23 +23,146 @@ Each  operator  is  returned  as  a  different  token  type.  Namely,  there  ar
 
 ## Demo
 1.
+***Input:test1.txt**
 ``` 
 // A program to sum 1 to n 
 Program sum Begin 
- Var    n 
- Var    s 
+    Var    n 
+    Var    s 
  
-Read n 
-If n < 0 Then 
-          Write -1 
- Exit 
-Else 
-          Set s = 0 
-         EndIf 
-         While n > 0 Do 
-   Set s = s + n 
-       Set n = n – 1 
-         EndWhile 
-  Write s 
+    Read n 
+    If n < 0 Then 
+        Write -1 
+        Exit 
+    Else 
+        Set s = 0 
+    EndIf 
+    While n > 0 Do 
+        Set s = s + n 
+        Set n = n – 1 
+    EndWhile 
+    Write s 
 End
 ```
+***Output**
+The stdout output of test1 using –s option is as follows: 
+ 
+Keyword: Program 
+Identifier: sum 
+Keyword: Begin 
+Keyword: Var 
+Identifier: n 
+Keyword: Var 
+Identifier: s 
+Keyword: Read 
+Identifier: n 
+Keyword: If 
+Identifier: n 
+Operator: < 
+Integer Constant: 0 
+Keyword: Then 
+Keyword: Write 
+Operator: - 
+Integer Constant: 1 
+Keyword: Exit 
+Keyword: Else 
+Keyword: Set 
+Identifier: s 
+Operator: = 
+Integer Constant: 0 
+Keyword: EndIf 
+Keyword: While 
+Identifier: n 
+Operator: > 
+Integer Constant: 0 
+Keyword: Do
+Keyword: Set 
+Identifier: s 
+Operator: = 
+Identifier: s 
+Operator: + 
+Identifier: n 
+Keyword: Set 
+Identifier: n 
+Operator: = 
+Identifier: n 
+Operator: - 
+Integer Constant: 1 
+Keyword: EndWhile 
+Keyword: write 
+Identifier: s 
+Keyword: End
+
+2.
+***Input:test2.txt**
+```
+// A program to sum 1 to n 
+Program sum Begin 
+    Var    n 
+    Var    s 
+    
+    Read n 
+    If n < 0 Then 
+        Write -1 
+        Exit 
+    Else 
+        Set s = 0 
+    EndIf 
+    While n > 0 Do 
+        Set s = s + n 
+        Set n = n – 1 
+    EndWhile 
+    Write s 
+End;
+```
+***Output**
+The stdout output of test2 using –s option is as follows: 
+ 
+Keyword: Program 
+Identifier: sum 
+Keyword: Begin 
+Keyword: Var 
+Identifier: n 
+Keyword: Var 
+Identifier: s 
+Keyword: Read 
+Identifier: n 
+Keyword: If 
+Identifier: n 
+Operator: < 
+Integer Constant: 0 
+Keyword: Then 
+Keyword: Write 
+Operator: - 
+Integer Constant: 1 
+Keyword: Exit 
+Keyword: Else 
+Keyword: Set 
+Identifier: s 
+Operator: = 
+Integer Constant: 0 
+Keyword: EndIf 
+Keyword: While 
+Identifier: n 
+Operator: > 
+Integer Constant: 0 
+Keyword: Do 
+Keyword: Set 
+Identifier: s 
+Operator: = 
+Identifier: s 
+Operator: + 
+Identifier: n 
+Keyword: Set 
+Identifier: n 
+Operator: = 
+Identifier: n 
+Operator: - 
+Integer Constant: 1 
+Keyword: EndWhile 
+Keyword: write 
+Identifier: s 
+Keyword: End 
+ 
+The stderr output of test2 is as follows: 
+Lexical error: line 18: unknown character ; 
