@@ -5,7 +5,7 @@
  - [Demo](#Demo)
 ## 環境設置與使用方法
 **1. 環境設置**  
-&emsp;Windows平臺下面Lex和Yacc開發環境所需要安裝的程序：    
+&emsp;Ubuntu平臺下面Lex和Yacc開發環境所需要安裝的程序：    
 &emsp;&emsp;* **Lex(flex.exe)和Yacc(bison.exe)環境**        
 &emsp;&emsp;&emsp;```sudo apt-get install flex bison```    
 &emsp;&emsp;* **C/C++編譯器**      
