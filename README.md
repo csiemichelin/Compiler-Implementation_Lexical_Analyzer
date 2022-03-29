@@ -12,7 +12,10 @@
 &emsp;&emsp;&emsp;```sudo apt-get update```      
 &emsp;&emsp;&emsp;```sudo apt-get upgrade```      
 &emsp;&emsp;&emsp;```sudo apt-get install build-essential```        
-&emsp;&emsp;&emsp;```sudo apt-get install libc6-dev```      
+&emsp;&emsp;&emsp;```sudo apt-get install libc6-dev```
+**2. 使用方法**
+&emsp;&emsp;<img src="![flex](https://user-images.githubusercontent.com/49907717/160639026-e7524ea7-7a3a-43c8-9f14-f58a3adf0c03.PNG)" width="300" height="300">  
+&emsp;&emsp;根據以上圖示去執行但這裡穩麼使用makefile簡化步驟，只要在terminal上輸入```make```即可。  
 
 ## 介紹
 **1.** This category of tokens includes all identifiers. An identifier is a sequence of underscores, letters, and digits; the first character must be an underscore or a letter. All identifiers are returned as the same token type. However, there are a large number of possible lexemes for this token type. To distinguish these lexemes, the string of each identifier is returned as the attribute value of the token.
